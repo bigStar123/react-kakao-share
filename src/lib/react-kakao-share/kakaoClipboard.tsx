@@ -92,7 +92,7 @@ export function kakaoClipboard({
       kakao.init(KAKAOAPI);
     }
 
-    kakao.Link.sendDefault({
+    kakao.Share.sendDefault({
       objectType: "feed",
       content: {
         title: title,
